@@ -4,7 +4,7 @@
  */
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar, Footer } from './components/Layout';
+import { Navbar, Footer, WhatsAppButton, PromoModal } from './components/Layout';
 import { Home } from './pages/Home';
 import { Fleet } from './pages/Fleet';
 import { Services } from './pages/Services';
@@ -24,6 +24,8 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
+        <PromoModal />
       </div>
     </Router>
   );

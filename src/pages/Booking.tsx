@@ -61,7 +61,7 @@ export const Booking = () => {
 
             <div className="space-y-8">
               {[
-                { icon: <Phone size={24} />, title: "اتصل بنا مباشرة", info: "+20 123 456 7890" },
+                { icon: <Phone size={24} />, title: "اتصل بنا مباشرة", info: "+20 155 555 3717" },
                 { icon: <Mail size={24} />, title: "راسلنا عبر البريد", info: "booking@elitelimo.eg" },
                 { icon: <MapPin size={24} />, title: "مكتبنا الرئيسي", info: "القاهرة، المعادي، شارع 9" },
               ].map((item, i) => (
